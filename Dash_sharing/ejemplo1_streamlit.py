@@ -27,7 +27,7 @@ def get_iso_alpha(country_name):
 df['iso_alpha'] = df['country'].apply(get_iso_alpha)
 
 # Interfaz de usuario
-st.title("Explorador de Datos de Gapminder - Ejemplo")
+st.title("Explorador de Datos de Gapminder empleando Dash - Ejemplo")
 
 selected_country = st.selectbox("Selecciona un país", paises_unicos, index=0)
 
